@@ -1,0 +1,34 @@
+[run 0]
+info = "default settings"
+parameter_file = default.yaml
+data_file = n_gamma_default_settings.csv
+
+[run 1]
+info = "shortest possible short integration (1)"
+parameter_file = params_1.yaml
+data_file = n_y_run_1.csv
+
+[run 2]
+info = "longer short integration (6)"
+parameter_file = params_2.yaml
+data_file = n_y_run_2.csv
+
+[run 3]
+info = "default short, shorter long (0x0f)"
+parameter_file = params_3.yaml
+data_file = n_y_run_3.csv
+
+[run 4]
+info = "default short longer long (0x28)"
+parameter_file = params_4.yaml
+data_file = n_y_run_4.csv
+
+[run 5]
+info = "default integration times, lower threshhold (0x518)"
+parameter_file = params_5.yaml
+data_file = n_y_run_5.csv
+
+[run 6]
+info = "default integration times, higher threshhold (0x718)"
+parameter_file = params_6.yaml
+data_file = n_y_run_6.csv
